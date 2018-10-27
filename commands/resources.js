@@ -2,7 +2,7 @@
 
 const { Broadcast: B } = require('ranvier');
 const Crafting = require('../lib/Crafting');
-const ItemUtil = require('../../ranvier-lib/lib/ItemUtil');
+const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
 
 module.exports = {
   aliases: [ "materials" ],

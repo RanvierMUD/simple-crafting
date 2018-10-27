@@ -3,7 +3,7 @@
 const Ranvier = require('ranvier');
 const { Broadcast: B, RandomUtil } = Ranvier;
 const { CommandParser } = Ranvier.CommandParser;
-const ItemUtil = require('../../ranvier-lib/lib/ItemUtil');
+const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
 const Crafting = require('../lib/Crafting');
 
 module.exports = {
