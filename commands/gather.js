@@ -27,7 +27,6 @@ module.exports = {
       player.setMeta('resources', {});
     }
 
-    let result = [];
     for (const material in resource.materials) {
       const entry = resource.materials[material];
       const amount = RandomUtil.inRange(entry.min, entry.max);
