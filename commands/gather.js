@@ -1,8 +1,7 @@
 'use strict';
 
-const Ranvier = require('ranvier');
-const { Broadcast: B, RandomUtil } = Ranvier;
-const { CommandParser } = Ranvier.CommandParser;
+const { Broadcast: B, RandomUtil } = require('ranvier');
+const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
 const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
 const Crafting = require('../lib/Crafting');
 
@@ -12,7 +11,7 @@ module.exports = {
       return B.sayAt(player, "Gather what?");
     }
 
-    let node = CommandParser.parseDot(args, player.room.items);
+    let node = ArgParser.parseDot(args, player.room.items);
 
     if (!node) {
       return B.sayAt(player, "You don't see anything like that here.");
