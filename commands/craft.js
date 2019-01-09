@@ -4,7 +4,7 @@ const sprintf = require('sprintf-js').sprintf;
 const { Broadcast: B, CommandManager, ItemType } = require('ranvier');
 const Crafting = require('../lib/Crafting');
 const say = B.sayAt;
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const ItemUtil = require('@bundles/bundle-example-lib/lib/ItemUtil');
 
 const subcommands = new CommandManager();
 
