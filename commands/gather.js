@@ -1,6 +1,7 @@
 'use strict';
 
-const { Broadcast: B, RandomUtil } = require('ranvier');
+const Random = require('rando-js');
+const { Broadcast: B } = require('ranvier');
 const ArgParser = require('@bundles/bundle-example-lib/lib/ArgParser');
 const ItemUtil = require('@bundles/bundle-example-lib/lib/ItemUtil');
 const Crafting = require('../lib/Crafting');
@@ -28,7 +29,7 @@ module.exports = {
 
     for (const material in resource.materials) {
       const entry = resource.materials[material];
-      const amount = RandomUtil.inRange(entry.min, entry.max);
+      const amount = Random.inRange(entry.min, entry.max);
       if (amount) {
         const resItem = Crafting.getResourceItem(material);
         const metaKey = `resources.${material}`;
