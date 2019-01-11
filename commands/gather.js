@@ -1,6 +1,6 @@
 'use strict';
 
-const Random = require('rando-js');
+const { Random } = require('rando-js');
 const { Broadcast: B } = require('ranvier');
 const ArgParser = require('@bundles/bundle-example-lib/lib/ArgParser');
 const ItemUtil = require('@bundles/bundle-example-lib/lib/ItemUtil');
