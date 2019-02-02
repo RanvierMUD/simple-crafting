@@ -18,7 +18,7 @@ module.exports = {
       return B.sayAt(player, "You don't see anything like that here.");
     }
 
-    const resource = node.getBehavior('resource');
+    const resource = node.getMeta('resource');
     if (!resource) {
       return B.sayAt(player, "You can't gather anything from that.");
     }

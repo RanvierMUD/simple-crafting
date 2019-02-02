@@ -43,7 +43,6 @@ For a player to get resources you create an item for them to use the `gather` co
   keywords: [ "green", "plant", "resource" ]
   metadata:
     noPickup: true
-  behaviors:
     # configures if and what happens when this resource is gathered
     resource:
       # flavor message displayed to the user after gathering

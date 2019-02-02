@@ -10,7 +10,6 @@
     itemLevel: 1
     quality: common
     noPickup: true
-  behaviors:
     resource:
       depletedMessage: "withers, having been stripped of usable materials."
       materials:
@@ -28,7 +27,6 @@
     itemLevel: 1
     quality: uncommon
     noPickup: true
-  behaviors:
     resource:
       depletedMessage: "withers, having been stripped of usable materials."
       materials:
