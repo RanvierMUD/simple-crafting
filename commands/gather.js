@@ -2,8 +2,8 @@
 
 const { Random } = require('rando-js');
 const { Broadcast: B } = require('ranvier');
-const ArgParser = require('@bundles/bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('@bundles/bundle-example-lib/lib/ItemUtil');
+const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
+const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
 const Crafting = require('../lib/Crafting');
 
 module.exports = {
